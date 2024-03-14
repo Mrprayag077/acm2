@@ -1,0 +1,33 @@
+#WorkFLOW
+-----------
+git init 
+git remote add origin 
+git remote -v
+git branch 
+git add .
+git commit -m "topic/file: description"
+git status
+git push -u origin main
+
+#BRANCHES
+-----------
+git checkout {name}
+git checkout -b {name}
+git checkout -d {name}
+git branch -M {newname}
+
+
+#Merge
+------------
+git diff 
+git merge main
+
+
+#Changes
+-------------
+git reset
+git reset -HEAD~1
+git reset --hard
+git reset {hashid}
+
+git log
